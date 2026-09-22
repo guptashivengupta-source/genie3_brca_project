@@ -1,4 +1,3 @@
 Basal_M1
 LumA_M1
-LumB_M1
-Basal_M4
+Basal_M3
