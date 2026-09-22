@@ -1,0 +1,5 @@
+{
+  "min_subtype_n": 60,
+  "subtypes": ["LumA", "LumB", "Her2", "Basal"],
+  "n_match": 67
+}

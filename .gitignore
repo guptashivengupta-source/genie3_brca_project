@@ -1,0 +1,10 @@
+.DS_Store
+.vscode/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/tcga/
+data/metabric/
+data/synthetic/
+results/
+.idea/

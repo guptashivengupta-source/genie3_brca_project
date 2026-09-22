@@ -1,0 +1,16 @@
+{
+  "n_network_genes": 120,
+  "min_samples": 5,
+  "min_subtype_n": 60,
+  "n_trees": 40,
+  "n_match_reps": 3,
+  "n_permutations": 18,
+  "n_bootstrap": 12,
+  "top_edges": 400,
+  "min_module_size": 8,
+  "max_modules": 10,
+  "module_stability_threshold": 0.4,
+  "hub_stability_threshold": 0.6,
+  "max_followup_days": 100000,
+  "n_jobs": 2
+}

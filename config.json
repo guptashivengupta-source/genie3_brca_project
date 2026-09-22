@@ -1,0 +1,43 @@
+{
+  "min_count": 1.0,
+  "min_samples": 20,
+  "n_network_genes": 500,
+  "subtypes": [
+    "LumA",
+    "LumB",
+    "Her2",
+    "Basal"
+  ],
+  "min_subtype_n": 100,
+  "adjust_composition": true,
+  "composition_axes": [
+    "adipocyte",
+    "stromal",
+    "immune"
+  ],
+  "tree_method": "RF",
+  "n_trees": 100,
+  "max_features": "sqrt",
+  "n_jobs": -1,
+  "seed": 1234,
+  "tf_only": false,
+  "n_match": 0,
+  "n_match_reps": 5,
+  "top_edges": 1000,
+  "n_permutations": 10,
+  "fdr": 0.05,
+  "n_bootstrap": 30,
+  "bootstrap_fraction": 0.8,
+  "hub_top_k": 20,
+  "hub_stability_threshold": 0.7,
+  "min_module_size": 12,
+  "max_modules": 12,
+  "module_stability_threshold": 0.5,
+  "survival_endpoint": "OS",
+  "max_followup_days": 3650,
+  "covariates": [
+    "age",
+    "stage",
+    "subtype"
+  ]
+}
