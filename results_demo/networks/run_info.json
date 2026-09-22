@@ -1,0 +1,17 @@
+{
+  "n_match": 120,
+  "n_reps": 5,
+  "tf_only": false,
+  "raw_matrix": false,
+  "subtypes": {
+    "LumA": 120,
+    "Basal": 150
+  },
+  "genes": 280,
+  "adjusted": true,
+  "tree_method": "RF",
+  "n_trees": 100,
+  "max_features": "sqrt",
+  "seed": 1234,
+  "top_edges": 1000
+}
